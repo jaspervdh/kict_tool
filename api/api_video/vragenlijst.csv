@@ -1,0 +1,53 @@
+Politiek,"Hoe sterk is de afhankelijkheid van derden? Zijn er alternatieven voor elke samenwerking, leveranciers, ..? Bijvoorbeeld op vlak van AI, gebruik maken van Mistral AI (Frans, Europees) ipv ChatGPT (Amerikaans)"
+Politiek,"Is jullie product politiek gekleurd? M.a.w. heeft de overheid van het land waarin het product bedacht wordt, invloed op de werking van het product? Zoals Deepseek uit China die vragen over de repressie op het Tiananmenplein niet wilt beantwoorden: https://www.vrt.be/vrtnws/nl/2025/01/28/wat-is-deepseek/ "
+Politiek,Hoe afhankelijk is het product van de internationale handel en akkoorden? Ondervindt het product bijvoorbeeld een effect van de verhoogde importtarieven van Donald Trump? https://www.vbo-feb.be/nl/nieuws/amerikaanse-invoertarieven-wat-moet-u-weten/
+Politiek,Vanwaar moeten de verschillende onderdelen van het product komen? Stoten jullie hierbij op bepaalde import/export beperkingen?
+Politiek,In welke mate wordt het product beïnvloed door politieke beslissingen op korte/lange termijn?
+Economisch,Is het product betaalbaar voor de beoogde doelgroep?
+Economisch,Is er vraag naar het product?
+Economisch,"Op welke niveau's (lokaal, regionaal, nationaal) kan het product bijdragen aan economische groei of werkgelegenheid?"
+Economisch,Zorgt het product ervoor dat jobs zullen verdwijnen of juist bijkomen?
+Economisch,Wat is het verdienmodel? Is het winstgevend op lange termijn?
+Economisch,Zijn er concurrenten op de markt?
+Economisch,Wordt het goedkoper om het product te maken als je er heel veel van maakt?
+Sociaal-cultureel,Welke bevolkingsgroepen worden beïnvloed door jullie product? Wie heeft er het meeste baat bij en wie niet?
+Sociaal-cultureel,Is het product voor iedereen toegankelijk? Worden er mensen uitgesloten die het product niet kunnen gebruiken door bijvoorbeeld een gebrek aan digitale kennis?
+Sociaal-cultureel,Hoe ligt het probleem in een andere culturele context dan deze van het ontwikkelingsteam? Hoe zit het met het gebruik van het product in deze andere culturele context?
+Sociaal-cultureel,Welke invloed heeft jouw product op het (sociale) leven van de gebruiker?
+Sociaal-cultureel,Bevordert het product welzijn of levenskwaliteit? Op welke manier?
+Sociaal-cultureel,Is het product getest op een diverse testgroep? Man-vrouw-X? Jong-oud? Laagopgeleid-hoogopgeleid?
+Technologisch,Is de technologie makkelijk schaalbaar indien nodig?
+Technologisch,Hoe moeilijk is het om jouw product te maken/onderhouden?
+Technologisch,Zijn er opkomende technologieën die het product op technisch vlak snel verouderd kan maken?
+Technologisch,"Wordt er gebruikgemaakt van representatieve data? Is de gebruikte data representabel voor jouw volledige doelgroep. Bijvoorbeeld bij spraakherkenning zowel gebruik maken van gesproken tekst van mannen, vrouwen, kinderen, dialecten..."
+Technologisch,Worden de gegevens van de gebruiker goed beveiligd?
+Technologisch,"Is er sprake van AI? Heeft deze AI ingebouwde bias? Is het echt wel nodig om gebruik te maken van AI? Voorbeeld uit de les: Smartschool die leerproblemen opspoort via AI is geen goed idee, overbodige AI"
+Technologisch,"Is de achterliggende technologie transparant voor de gebruiker of niet? Bijvoorbeeld ChatGPT gebruikt bijna iedereen momenteel, maar slechts heel weinig mensen weten hoe de technologie in elkaar zit."
+Ecologisch,Wordt het product duurzaam geproduceerd?
+Ecologisch,Wat is de ecologische voetafdruk?
+Ecologisch,Wat is de levensduur van het product?
+Ecologisch,Is het product recycleerbaar/herbruikbaar? Past het product binnen de circulaire economie?
+Ecologisch,Bevat het product schadelijke stoffen?
+Ecologisch,Wat is het energieverbruik?
+Ecologisch,Hoe raakt het product bij de gebruiker? Wordt het product lokaal geproduceerd?
+Ecologisch,Hoe schaars is de grondstof waarvan jouw product is gemaakt?
+Ecologisch,Heeft het product impact op de klimaatopwarming? Positief/Negatief?
+Juridisch,Voldoet het product aan alle relevante wet-en regelgevingen?
+Juridisch,"Is het CE-gemarkeerd, m.a.w. voldoet het aan de Europese wetgeving ?"
+Juridisch,"Wie is aansprakelijk in geval van schade? (bvb voor huurfietsen, deelautos)"
+Juridisch,Hoe gaat het product om met privacy en gegevensbescherming (bvb GDPR)?
+Juridisch,Zijn er intellectuele eigendommen (zoals patenten) verbonden aan het product?
+Juridisch,Zou het product gebruikt kunnen worden voor slechte doeleinden (misbruik)?
+Ethisch,"Is het probleem vanuit verschillende perspectieven bekeken, zoals die van mensen met verschillende achtergronden, leeftijden, capaciteiten, sociaaleconomische situaties, etc.? Zijn er varianten of subproblemen die specifieke groepen (bijvoorbeeld mensen met een beperking, anderstaligen, ouderen, etc.) op een andere manier raken?"
+Ethisch,"Is de voorgestelde oplossing bruikbaar en toegankelijk voor zoveel mogelijk mensen, ongeacht hun achtergrond of situatie? Zijn er mensen of groepen die baat hebben bij een alternatieve aanpak? Hebben we die bekeken?"
+Ethisch,Zijn er bepaalde groepen die gediscrimineerd kunnen worden bij het gebruik van het product? Zijn er bijvoorbeeld bijwerkingen of neveneffecten van de oplossing die voor sommige groepen nieuwe problemen kunnen opleveren?
+Ethisch,"Zijn de gebruikte materialen op een ethische manier verworven? (geen kinderarbeid, uitbuiting, …)"
+Ethisch,Stimuleert het product overconsumptie of onnodige verspilling?
+Ethisch,Worden gebruikers gemanipuleerd op een bepaalde manier door het product? Is het ethisch verantwoord om dit te mogen doen? Bijvoorbeeld social media gebruikt algoritmes om gebruikers zo lang mogelijk op het platform te houden.
+Gezondheid,"Zijn eventuele gezondheidsrisico's duidelijk voor de gebruiker? Zo niet, hoe kan dit duidelijk gecommuniceerd worden?"
+Gezondheid,Kan het product schadelijke neveneffecten hebben bij gebruik? vb. sociale media → mensen raken verslaafd en komen niet meer buiten
+Gezondheid,"Kan het product bij langdurig gebruik gezondheidsrisico’s veroorzaken? Indien wel, wordt dit duidelijk aangegeven?"
+Gezondheid,Bevordert/Belemmert het product de fysieke/mentale gezondheid? Zorgt het misschien voor verslaving of slaaptekort?
+Veiligheid,Is het product veilig om te gebruiken voor elk soort gebruiker? Kinderen? Ouderen?
+Veiligheid,Is het product beveiligd tegen hacken en misbruik?
+Veiligheid,Welke schade kan met jullie product aangericht worden in handen van een kwaadaardig persoon?
