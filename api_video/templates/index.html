@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PESTEL Evaluatie</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papC0BpFkOuk+QKtvN95Xp7tv1cKzzBDf4iABnO4Y6Lf6fD6yU+KgzQzY7t2qfakMBdAelA/VdJHRssLxu5pQA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div id="stars" class="stars-container"></div>
+    <h1>Beoordeel een product op verschillende perspectieven</h1>
+
+    <div id="questionBox" class="question-box">
+        <div id="inputSection">
+            <label for="questionNumber">Geef je score:</label><br>
+            <input type="number" id="questionNumber" min="1">
+            <button class="button" onclick="loadQuestion()">Toon Vraag</button>
+        </div>
+
+        <div id="questionSection" style="display: none;">
+            <h2 id="questionText">Vraag verschijnt hier...</h2>
+            <p><strong>Perspectief:</strong> <span id="perspectiveLabel"></span></p>
+            <button class="button" onclick="evaluateAnswer(true)">✅ Akkoord</button>
+            <button class="button red" onclick="evaluateAnswer(false)">❌ Niet akkoord</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="perspective" id="perspective1">
+            <span class="icon"><i class="fas fa-landmark"></i></span>
+            <h3>🏛️ Politiek</h3>
+            <div class="histogram">
+                <div class="bar" id="bar1" style="height: 0;"></div>
+            </div>
+            <!-- <button class="button" onclick="increaseLevel('bar1')">+</button> -->
+        </div>
+        <div class="perspective" id="perspective2">
+            <span class="icon"><i class="fas fa-coins"></i></span>
+            <h3>💰 Economisch</h3>
+            <div class="histogram">
+                <div class="bar" id="bar2" style="height: 0;"></div>
+            </div>
+            <!-- <button class="button" onclick="increaseLevel('bar2')">+</button> -->
+        </div>
+        <div class="perspective" id="perspective3">
+            <span class="icon"><i class="fas fa-users"></i></span>
+            <h3>👥 Sociaal</h3>
+            <div class="histogram">
+                <div class="bar" id="bar3" style="height: 0;"></div>
+            </div>
+            <!-- <button class="button" onclick="increaseLevel('bar3')">+</button> -->
+        </div>
+        <div class="perspective" id="perspective4">
+            <span class="icon"><i class="fas fa-microchip"></i></span>
+            <h3>🤖 Technologisch</h3>
+            <div class="histogram">
+                <div class="bar" id="bar4" style="height: 0;"></div>
+            </div>
+            <!-- <button class="button" onclick="increaseLevel('bar4')">+</button> -->
+        </div>
+        <div class="perspective" id="perspective5">
+            <span class="icon"><i class="fas fa-leaf"></i></span>
+            <h3>🌿 Ecologisch</h3>
+            <div class="histogram">
+                <div class="bar" id="bar5" style="height: 0;"></div>
+            </div>
+            <!-- <button class="button" onclick="increaseLevel('bar5')">+</button> -->
+        </div>
+        <div class="perspective" id="perspective6">
+            <span class="icon"><i class="fas fa-scale-balanced"></i></span>
+            <h3>⚖️ Legaal</h3>
+            <div class="histogram">
+                <div class="bar" id="bar6" style="height: 0;"></div>
+            </div>
+            <!-- <button class="button" onclick="increaseLevel('bar6')">+</button> -->
+        </div>
+        <div class="perspective" id="perspective7">
+            <span class="icon"><i class="fas fa-balance-scale"></i></span>
+            <h3>🧭 Ethisch</h3>
+            <div class="histogram">
+                <div class="bar" id="bar7" style="height: 0;"></div>
+            </div>
+            <!-- <button class="button" onclick="increaseLevel('bar7')">+</button> -->
+        </div>
+        <div class="perspective" id="perspective8">
+            <span class="icon"><i class="fas fa-heartbeat"></i></span>
+            <h3>❤️ Gezondheid</h3>
+            <div class="histogram">
+                <div class="bar" id="bar8" style="height: 0;"></div>
+            </div>
+            <!-- <button class="button" onclick="increaseLevel('bar8')">+</button> -->
+        </div>
+        <div class="perspective" id="perspective9">
+            <span class="icon"><i class="fas fa-shield-alt"></i></span>
+            <h3>🛡️ Veiligheid</h3>
+            <div class="histogram">
+                <div class="bar" id="bar9" style="height: 0;"></div>
+            </div>
+            <!-- <button class="button" onclick="increaseLevel('bar9')">+</button> -->
+        </div>
+    </div>
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
